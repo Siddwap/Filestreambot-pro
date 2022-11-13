@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Shuaib Siddiqui]",
+                    text="I am Coded By [Shuaib Siddiqui]('https://t.me/shuaib_siddiqui')",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url="@shuaib_siddiqui")
+                                InlineKeyboardButton("Developer💻", url="https://t.me/shuaib_siddiqui")
                             ]
                         ]
                     ),
